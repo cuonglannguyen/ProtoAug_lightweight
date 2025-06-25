@@ -1,0 +1,12 @@
+2024.05.15 16:25:59 INFO  Started: Metals version 1.3.0 in folders '/home/cuong/Documents/Workspace/Thesis' for client Visual Studio Code 1.82.0.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@7b232bba]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@64bdea3f]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7b232bba]
+2024.05.15 16:26:01 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.15 16:26:02 WARN  no build tool detected in workspace '/home/cuong/Documents/Workspace/Thesis'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.05.15 16:26:02 WARN  Build server is not auto-connectable.
+2024.05.15 23:11:02 INFO  Shutting down server
+2024.05.15 23:11:02 INFO  shutting down Metals
+2024.05.15 23:11:02 INFO  Exiting server

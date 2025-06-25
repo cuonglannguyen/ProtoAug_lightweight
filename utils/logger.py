@@ -38,8 +38,7 @@ class ExampleLogger:
         """
         log_writer = logging.getLogger(__name__)
         log_writer.setLevel(logging.INFO)
-        self.log_dir = os.path.join('/cm/archive/cuongnl8/Cuong-thesis', 'logs')
-        #self.log_dir = os.path.join('/cm/archive/tungpd10/thesis', 'logs')
+        self.log_dir = os.path.join('', 'logs')
 
         if not os.path.exists(self.log_dir):
             os.makedirs(self.log_dir)

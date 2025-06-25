@@ -1,6 +1,4 @@
-#/cm/shared/cuongnl8/APT/caltech-101/101_ObjectCategories
-#/cm/shared/cuongnl8/Cuong-thesis/data/caltech_16shots_seed0
-#/cm/shared/cuongnl8/Cuong-thesis/data/split_caltech.csv"
+
 import os
 import shutil
 import random
@@ -10,11 +8,11 @@ import csv
 random.seed(0)
 
 # Paths
-root_dir = "/cm/shared/cuongnl8/APT/caltech-101/101_ObjectCategories"
-output_dir = "/cm/shared/cuongnl8/Cuong-thesis/data/caltech_16shots_seed0"
+root_dir = ""
+output_dir = ""
 train_image_dir = os.path.join(output_dir, "images", "train")
 val_image_dir = os.path.join(output_dir, "images", "val")
-split_file = "/cm/shared/cuongnl8/Cuong-thesis/data/split_caltech.csv"
+split_file = ""
 
 # Ignore Faces_easy folder
 ignore_folder = "Faces_easy"

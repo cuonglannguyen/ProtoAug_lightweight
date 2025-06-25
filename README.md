@@ -1,5 +1,6 @@
 # ProtoAug lightweight
 This repo is of ICML 2025 paper Provably Improving Generalization of Few-shot Models with Synthetic Data (the lightweight version)
+Code repo is adapted from https://github.com/frotms/image_classification_pytorch
 
 ## Requirements
 Python3 support only. Tested on CUDA9.0, cudnn7.
